@@ -1,0 +1,12 @@
+# Core dependencies
+fastapi>=0.95.0
+uvicorn>=0.22.0
+pydantic>=1.10.0
+
+# AWS Lambda dependencies
+boto3>=1.26.0
+
+# Testing dependencies
+pytest>=7.3.1
+pytest-cov>=4.1.0
+httpx>=0.24.0  # For FastAPI TestClient
